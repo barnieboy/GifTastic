@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX Giphy Button Review</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/css/gif.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body id="wholeThing">
+
+<div class="jumbotron" id="header">
+  <img id="topImageL" src="assets/images/dog1.gif">
+  <img id="topImageR" src="assets/images/dog1.gif">
+  <h1>Exploring Animal Groups!</h1>
+</div>
+
+<form class="form-inline" id="animalSearch">
+  <div class="form-group">
+    <label for="animalInput">Type and submit to search</label>
+    <input type="text" id="animalInput">
+  </div>
+  
+  <input id="addShow" type="submit" value="submit">
+</form>
+
+<div class="row">
+  <div class="container">
+    <div class="btn-group">
+      <button class="btn btn-primary" id="animal" data-search="dog">dog</button>
+      <button class="btn btn-primary" id="animal" data-search="cat">Cat</button>
+      <button class="btn btn-primary" id="animal" data-search="elephant">Elephant</button>
+      <button class="btn btn-primary" id="animal" data-search="tiger">Tiger</button>
+      <button class="btn btn-primary" id="animal" data-search="dolphin">Dolphin</button>
+      <button class="btn btn-primary" id="animal" data-search="monkey">Monkey</button>
+      <button class="btn btn-primary" id="animal" data-search="penguin">Penguin</button>
+      <button class="btn btn-primary" id="animal" data-search="rabit">Rabit</button>
+      <button class="btn btn-primary" id="animal" data-search="rat">Rat</button>
+
+
+      <div id="myButtons"></div>
+    </div> 
+  </div> 
+</div> 
+
+
+<div class="row">
+  <div class="container">
+      <span><div id="gifArea"></div></span>
+  </div> 
+</div> 
+
+
+<script type="text/javascript" src="assets/javascript/app.js"</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</body>
+</html>
+
+
